@@ -17,8 +17,8 @@
       <file leaf-file-name="iterationIntro.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/iterationIntro.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="40" column="83" lean-forward="true" selection-start-line="40" selection-start-column="83" selection-end-line="40" selection-end-column="83" />
+            <state relative-caret-position="287">
+              <caret line="45" column="96" lean-forward="false" selection-start-line="45" selection-start-column="96" selection-end-line="45" selection-end-column="96" />
               <folding />
             </state>
           </provider>
@@ -227,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517078655548</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Started section on functions.">
+      <created>1517079116261</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1517079116261</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -262,7 +269,8 @@
     <MESSAGE value="Added notes for basic List handling" />
     <MESSAGE value="Added section on nested lists." />
     <MESSAGE value="Added use of instanceof() method." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added use of instanceof() method." />
+    <MESSAGE value="Started section on functions." />
+    <option name="LAST_COMMIT_MESSAGE" value="Started section on functions." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -302,8 +310,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iterationIntro.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="40" column="83" lean-forward="true" selection-start-line="40" selection-start-column="83" selection-end-line="40" selection-end-column="83" />
+        <state relative-caret-position="287">
+          <caret line="45" column="96" lean-forward="false" selection-start-line="45" selection-start-column="96" selection-end-line="45" selection-end-column="96" />
           <folding />
         </state>
       </provider>

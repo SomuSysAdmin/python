@@ -42,3 +42,16 @@ for each_flick in movies:
 
 # Functions in Python:
 
+
+def print_lol(the_list):                    # The def keyword is used to define a new function.
+    for list_item in the_list:
+        if isinstance(list_item, list):
+            print_lol(list_item)
+        else:
+            print(list_item)
+
+
+print("\n\nPrinted with a recursive function: ")
+print_lol(movies)   # Note that there should be two blank lines before/after a function or class definition.
+# This is a coding standard and not an actual error.
+
