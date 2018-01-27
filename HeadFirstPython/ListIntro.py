@@ -6,7 +6,8 @@ movies = ["The Holy Grail",         # Index = 0
 
 print("Movie at index 1: ", movies[1])
 
-cast = ["Cleese", 'Palin', 'Jones', "Idle"]     # cast is actually a python collection object.
+# cast is actually a python collection object.
+cast = ["Cleese", 'Palin', 'Jones', "Idle"]  # Note that there is no difference between double & single quotes in python
 print(cast)         # Functions like print are called Build In Functions (BIFs)
 print(len(cast))    # len is another such BIF that prints the length of an object.
 print(cast[2])
