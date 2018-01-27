@@ -36,3 +36,9 @@ for each_flick in movies:
                 print(each_actor)
     else:
         print(each_flick)
+
+# We can see a list of all the BIFs in Python with the use of: dir(__builtins__) in the python shell.
+# To find help about a certain function (say 'input()') we can merely type 'help(input)' at the console.
+
+# Functions in Python:
+
