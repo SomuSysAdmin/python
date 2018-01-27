@@ -23,3 +23,16 @@ for each_flick in movies:
     print(each_flick)       # This prints the inner list as-is. To print it properly, we need a way to check if the
                             # data is a list.
 
+print("\n\nPrinted after checking with 'isinstance' to see whether element is a sub-list: ")
+for each_flick in movies:
+    if isinstance(each_flick, list):        # This method checks if the variable is a certain type of object - like list
+        print("Main Actors: ", end="")      # A way to eliminate the newline printed at the end of every print statement
+        for each_actor in each_flick:
+            if isinstance(each_actor, list):
+                print("Supporting Actors: ", end="")
+                for each_supAct in each_actor:
+                    print(each_supAct)
+            else:                           # Note that even the else statement requires the use of a colon
+                print(each_actor)
+    else:
+        print(each_flick)
