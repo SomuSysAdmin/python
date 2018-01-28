@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfbf1558-c3c2-4e79-a4f5-6bc1668f66fc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/nester/MANIFEST" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/modulesIntro.py" afterPath="$PROJECT_DIR$/modulesIntro.py" />
+      <change beforePath="$PROJECT_DIR$/nester/nester.py" afterPath="$PROJECT_DIR$/nester/nester.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +18,28 @@
       <file leaf-file-name="modulesIntro.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modulesIntro.py">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="iterationIntro.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iterationIntro.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="95" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="95" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nester.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nester/nester.py">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="232">
-              <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+              <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -54,6 +74,7 @@
         <option value="$PROJECT_DIR$/nester.py" />
         <option value="$PROJECT_DIR$/nester/setup.py" />
         <option value="$PROJECT_DIR$/modulesIntro.py" />
+        <option value="$PROJECT_DIR$/nester/nester.py" />
       </list>
     </option>
   </component>
@@ -139,24 +160,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.modulesIntro">
-    <configuration name="HelloWorld" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="HeadFirstPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HelloWorld.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration name="ListIntro" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -211,6 +214,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="nester (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nester" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HeadFirstPython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nester/nester.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="nester" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -230,19 +251,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.HelloWorld" />
-      <item index="1" class="java.lang.String" itemvalue="Python.ListIntro" />
-      <item index="2" class="java.lang.String" itemvalue="Python.iterationIntro" />
-      <item index="3" class="java.lang.String" itemvalue="Python.nester" />
-      <item index="4" class="java.lang.String" itemvalue="Python.modulesIntro" />
+      <item index="0" class="java.lang.String" itemvalue="Python.ListIntro" />
+      <item index="1" class="java.lang.String" itemvalue="Python.iterationIntro" />
+      <item index="2" class="java.lang.String" itemvalue="Python.nester" />
+      <item index="3" class="java.lang.String" itemvalue="Python.modulesIntro" />
+      <item index="4" class="java.lang.String" itemvalue="Python.nester (1)" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.modulesIntro" />
-        <item index="1" class="java.lang.String" itemvalue="Python.nester" />
-        <item index="2" class="java.lang.String" itemvalue="Python.iterationIntro" />
-        <item index="3" class="java.lang.String" itemvalue="Python.ListIntro" />
-        <item index="4" class="java.lang.String" itemvalue="Python.HelloWorld" />
+        <item index="1" class="java.lang.String" itemvalue="Python.nester (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.nester" />
+        <item index="3" class="java.lang.String" itemvalue="Python.iterationIntro" />
+        <item index="4" class="java.lang.String" itemvalue="Python.ListIntro" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +344,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517121304373</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Completed the first draft of the nester function. Will add more functionality now!">
+      <created>1517125538741</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1517125538741</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -364,7 +392,8 @@
     <MESSAGE value="Added modules introduction." />
     <MESSAGE value="Added an module called `nester.py`. Also added the folder `nester` to act as a container for the distribution, with the metadata stored in `setup.py`." />
     <MESSAGE value="Built and installed custom module `nester`. Added explanations in moduleIntro.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Built and installed custom module `nester`. Added explanations in moduleIntro.py" />
+    <MESSAGE value="Completed the first draft of the nester function. Will add more functionality now!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed the first draft of the nester function. Will add more functionality now!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -407,14 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iterationIntro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="32" column="11" lean-forward="false" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nester.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -431,10 +452,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modulesIntro.py">
+    <entry file="file://$PROJECT_DIR$/iterationIntro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="95" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nester/nester.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
-          <caret line="16" column="9" lean-forward="true" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulesIntro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
           <folding />
         </state>
       </provider>

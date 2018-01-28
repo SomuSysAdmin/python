@@ -44,7 +44,7 @@ override the local function.
 import nester
 
 cast = ['Palin', 'Cleese', 'Idle', 'Jones', 'Gilliam', 'Chapman']
-nester.print_lol(cast)
+nester.print_lol(cast,0)
 
 """
 To share the code with the PyPI community, we used to have to do a commandline registration (telling the command line 
@@ -56,3 +56,11 @@ that it can execute directly and skip the compilation as long as the source code
 run-time optimization performed by the python interpreter, and the original .py file is still the one we need the users 
 to have. 
 """
+
+# Usage of an extra argument passed to the function.
+
+movies = ["The Holy Grail", 1975, "Terry Jones & Terry Gilliam", 91,
+            ["Graham Chapman",
+                ["Michael Palin", "John Cleese", "Terry Gilliam", "Eric Idle", "Terry Jones"]]]
+
+nester.print_lol(movies, 1)
