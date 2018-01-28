@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/modulesIntro.py" afterPath="$PROJECT_DIR$/modulesIntro.py" />
       <change beforePath="$PROJECT_DIR$/nester/nester.py" afterPath="$PROJECT_DIR$/nester/nester.py" />
+      <change beforePath="$PROJECT_DIR$/nester/setup.py" afterPath="$PROJECT_DIR$/nester/setup.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +19,8 @@
       <file leaf-file-name="modulesIntro.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modulesIntro.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+            <state relative-caret-position="112">
+              <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -38,8 +39,8 @@
       <file leaf-file-name="nester.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nester/nester.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
+            <state relative-caret-position="242">
+              <caret line="20" column="120" lean-forward="false" selection-start-line="20" selection-start-column="120" selection-end-line="20" selection-end-column="120" />
               <folding />
             </state>
           </provider>
@@ -73,8 +74,8 @@
         <option value="$PROJECT_DIR$/iterationIntro.py" />
         <option value="$PROJECT_DIR$/nester.py" />
         <option value="$PROJECT_DIR$/nester/setup.py" />
-        <option value="$PROJECT_DIR$/modulesIntro.py" />
         <option value="$PROJECT_DIR$/nester/nester.py" />
+        <option value="$PROJECT_DIR$/modulesIntro.py" />
       </list>
     </option>
   </component>
@@ -351,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517125538741</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Added an option to add a tab-stop before each sub-list to show hierarchy via indentation.">
+      <created>1517126751888</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1517126751888</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -393,7 +401,8 @@
     <MESSAGE value="Added an module called `nester.py`. Also added the folder `nester` to act as a container for the distribution, with the metadata stored in `setup.py`." />
     <MESSAGE value="Built and installed custom module `nester`. Added explanations in moduleIntro.py" />
     <MESSAGE value="Completed the first draft of the nester function. Will add more functionality now!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed the first draft of the nester function. Will add more functionality now!" />
+    <MESSAGE value="Added an option to add a tab-stop before each sub-list to show hierarchy via indentation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added an option to add a tab-stop before each sub-list to show hierarchy via indentation." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -452,6 +461,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nester/nester.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="20" column="120" lean-forward="false" selection-start-line="20" selection-start-column="120" selection-end-line="20" selection-end-column="120" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/iterationIntro.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -460,18 +477,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nester/nester.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="33" column="12" lean-forward="false" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modulesIntro.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="48" column="3" lean-forward="true" selection-start-line="48" selection-start-column="3" selection-end-line="48" selection-end-column="3" />
+        <state relative-caret-position="112">
+          <caret line="39" column="20" lean-forward="false" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
           <folding />
         </state>
       </provider>

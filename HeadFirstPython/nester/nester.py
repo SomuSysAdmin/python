@@ -9,7 +9,7 @@ presenting any element in bracket format. Each list item is printed individually
 """
 
 
-def print_lol(the_list, level):
+def print_lol(the_list, level=0):
 
     """
     This function checks if the present item in the list is a list iteself. This detects sub-lists. Any number of items
@@ -18,7 +18,7 @@ def print_lol(the_list, level):
     an initial level of 0.
 
     :param the_list:    The list which can contain multiple sub-lists nested at any level.
-    ;:param level:      The number of indentations for each sub-list.
+    :param level:      The number of indentations for each sub-list. This is an optional argument with the default val=0
     :return:            none.
     """
     for item in the_list:

@@ -44,7 +44,7 @@ override the local function.
 import nester
 
 cast = ['Palin', 'Cleese', 'Idle', 'Jones', 'Gilliam', 'Chapman']
-nester.print_lol(cast,0)
+nester.print_lol(cast)
 
 """
 To share the code with the PyPI community, we used to have to do a commandline registration (telling the command line 
