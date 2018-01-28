@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfbf1558-c3c2-4e79-a4f5-6bc1668f66fc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/fileOrder.md" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/modulesIntro.py" afterPath="$PROJECT_DIR$/modulesIntro.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,17 +14,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="modulesIntro.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="modulesIntro.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modulesIntro.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-83">
-              <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+            <state relative-caret-position="173">
+              <caret line="35" column="41" lean-forward="false" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="fileOrder.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="fileOrder.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fileOrder.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -63,6 +63,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>__main</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
@@ -82,10 +87,10 @@
         <option value="$PROJECT_DIR$/iterationIntro.py" />
         <option value="$PROJECT_DIR$/nester.py" />
         <option value="$PROJECT_DIR$/nester/setup.py" />
-        <option value="$PROJECT_DIR$/modulesIntro.py" />
         <option value="$PROJECT_DIR$/nester/nester.py" />
         <option value="$PROJECT_DIR$/fileOrder.list" />
         <option value="$PROJECT_DIR$/fileOrder.md" />
+        <option value="$PROJECT_DIR$/modulesIntro.py" />
       </list>
     </option>
   </component>
@@ -383,7 +388,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517127452171</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Added a table of contents and directions for use in fileOrder.md">
+      <created>1517127787381</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1517127787381</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -428,7 +440,8 @@
     <MESSAGE value="Added an option to add a tab-stop before each sub-list to show hierarchy via indentation." />
     <MESSAGE value="Made `level` an optional argument so that existing code doesn't break!" />
     <MESSAGE value="Added comments for the changes in the last commit." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added comments for the changes in the last commit." />
+    <MESSAGE value="Added a table of contents and directions for use in fileOrder.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a table of contents and directions for use in fileOrder.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -503,18 +516,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modulesIntro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-83">
-          <caret line="44" column="0" lean-forward="false" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fileOrder.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modulesIntro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="35" column="41" lean-forward="false" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
           <folding />
         </state>
       </provider>

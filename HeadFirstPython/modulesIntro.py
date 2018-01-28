@@ -30,7 +30,8 @@ nester
 └── setup.py
 
 If we attempt an execution at this point, it causes a NameError since Python won't be able to find nester since all code
-in Python is associated with a namespace. The code in the Python files are linked to the __main__ namespace, but when we
+in Python is associated with a namespace. The code in the Python files are linked to the __main__ namespace, the builtin 
+functions such as the `print()` and the `isinstance()` BIFs are a part of `__builtins__` namespace, but when we 
 create our own custom modules, they're  put in a namespace with the same name as the module. Thus, the function needs to
 be invoked with the name of the namespace (and consequently module) that contains it. So, we use `nester.print_lol()` 
 instead of just `print_lol()`. This is called Namespace Qualification. 
