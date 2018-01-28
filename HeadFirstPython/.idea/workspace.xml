@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="cfbf1558-c3c2-4e79-a4f5-6bc1668f66fc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/modulesIntro.py" afterPath="$PROJECT_DIR$/modulesIntro.py" />
+      <change beforePath="$PROJECT_DIR$/fileOrder.md" afterPath="$PROJECT_DIR$/fileOrder.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,42 +14,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="modulesIntro.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/modulesIntro.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="35" column="41" lean-forward="false" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fileOrder.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fileOrder.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fileOrder.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="iterationIntro.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iterationIntro.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="95" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="17" selection-end-column="95" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nester.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nester/nester.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="9" />
-              <folding />
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="120">
+                <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -89,8 +62,8 @@
         <option value="$PROJECT_DIR$/nester/setup.py" />
         <option value="$PROJECT_DIR$/nester/nester.py" />
         <option value="$PROJECT_DIR$/fileOrder.list" />
-        <option value="$PROJECT_DIR$/fileOrder.md" />
         <option value="$PROJECT_DIR$/modulesIntro.py" />
+        <option value="$PROJECT_DIR$/fileOrder.md" />
       </list>
     </option>
   </component>
@@ -395,7 +368,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517127787381</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Completed Chapter 2 of Head First Python.">
+      <created>1517130529957</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1517130529957</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -441,7 +421,8 @@
     <MESSAGE value="Made `level` an optional argument so that existing code doesn't break!" />
     <MESSAGE value="Added comments for the changes in the last commit." />
     <MESSAGE value="Added a table of contents and directions for use in fileOrder.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a table of contents and directions for use in fileOrder.md" />
+    <MESSAGE value="Completed Chapter 2 of Head First Python." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Chapter 2 of Head First Python." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -500,6 +481,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modulesIntro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="35" column="41" lean-forward="false" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/iterationIntro.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -517,17 +506,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fileOrder.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding />
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" column="29" lean-forward="false" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modulesIntro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="35" column="41" lean-forward="false" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
           <folding />
         </state>
       </provider>

@@ -2,9 +2,11 @@
 
 ### The following files should be visited in this order:
 
+#### Chapter 1 - Lists
 - HelloWorld.py
 - ListIntro.py
 - iterationIntro.py
+#### Chapter 2 - Sharing code and Modules of Functions. 
 - _Working with **modules**_:
     - nester/nester.py
     - nester/setup.py
