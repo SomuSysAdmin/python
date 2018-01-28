@@ -14,7 +14,19 @@ python files that together allow us to build, package and distribute our modules
 nester.py, we have to:
 
 1. Create a folder to contain the files, say, 'nester'.
-2. Create a setup.py file within that folder.  
+2. Create a setup.py file within that folder. The setup.py must contain the metadata required to build the module. 
 
+Once done, the distribution must be built using the command `python3 setup.py sdist`. Then to install the module, we 
+use `python3 setup.py install`. At the end of the process, the file structure becomes:
+
+nester
+├── build
+│   └── lib
+│       └── nester.py
+├── dist
+│   └── nester-1.0.tar.gz
+├── MANIFEST
+├── nester.py
+└── setup.py
 """
 
