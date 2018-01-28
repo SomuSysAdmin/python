@@ -9,7 +9,7 @@ presenting any element in bracket format. Each list item is printed individually
 """
 
 
-def print_lol(the_list, level=0):
+def print_lol(the_list, level=0):   # The level=0 both provides a default value and makes level an optional argument.
 
     """
     This function checks if the present item in the list is a list iteself. This detects sub-lists. Any number of items
@@ -29,6 +29,6 @@ def print_lol(the_list, level=0):
                 print(item, 0)
         else:
             if level != 0:
-                for num in range(level-1):        # The range BIF takes an integer(n) and generates a sequence from 0...(n-1).
+                for num in range(level-1):  # The range BIF takes an integer(n) and generates a sequence from 0...(n-1).
                     print("\t", end="")
             print(item)
