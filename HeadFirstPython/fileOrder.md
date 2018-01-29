@@ -15,3 +15,4 @@
     
 #### Chapter 3 - Exception handling and Reading Data from files.
 - readFile.py (needs _sketch.txt_)
+- stringProcessing.py

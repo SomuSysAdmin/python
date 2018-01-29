@@ -33,9 +33,17 @@ print()     # Printing a blank line.
 data.seek(0)
 lineNo = 1
 line = data.readline()
+
+"""
+Formatting: To provide padding while printing the value of elements, we use either of two formatting options:
+    "%2d: " % lineNo -->    Will print the value of lineNo and make it occupy exactly 2 spaces. If single digit, then 
+                            pad with spaces. OLD method of padding. Now, we can use a format option as well.
+    '{:2d}'.format(lineNo) -->  Same as above.  
+"""
+
 while line:
-    print(lineNo, ": ", line, sep="", end="")   # The sep="" states that there should be no seperator between strings.
-                                                # The default value is sep=" ".
+    print("%2d: " % lineNo, line, sep="", end="")   # The sep="" states that there should be no seperator between
+                                                    #   strings. The default value is sep=" ".
     line = data.readline()
     lineNo += 1
 
