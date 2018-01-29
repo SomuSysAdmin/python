@@ -16,3 +16,6 @@
 #### Chapter 3 - Exception handling and Reading Data from files.
 - readFile.py (needs _sketch.txt_)
 - stringProcessing.py
+
+#### Chapter 4 - Saving Data to files. 
+- saveData.py --> Output contained in `saveDataFiles/man_data.txt` and `saveDataFiles/other_data.txt`. 
