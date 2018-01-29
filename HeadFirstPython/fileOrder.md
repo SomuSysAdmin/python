@@ -1,5 +1,3 @@
-# Python Quick Tutorial
-
 ### The following files should be visited in this order:
 
 #### Chapter 1 - Lists
@@ -18,4 +16,4 @@
 - stringProcessing.py
 
 #### Chapter 4 - Saving Data to files. 
-- saveData.py --> Output contained in `saveDataFiles/man_data.txt` and `saveDataFiles/other_data.txt`. 
+- saveData.py --> Output contained in `saveDataFiles/man_data.txt` [here](saveDataFiles/man_data.txt) and `saveDataFiles/other_data.txt` [here](saveDataFiles/other_data.txt). 

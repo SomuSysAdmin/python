@@ -51,3 +51,9 @@ print("\t\tDONE!\nWriting to other_data.txt...", end="")
 print("Dialogs for Other Man: \n", file = otherOut)
 list_print(other, otherOut)
 print("\tDONE!")
+
+"""
+These next two lines close the files thus causing the buffer to flush and store the data in the file. 
+"""
+manOut.close()
+otherOut.close()
