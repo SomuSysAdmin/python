@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfbf1558-c3c2-4e79-a4f5-6bc1668f66fc" name="Default" comment="Added">
-      <change beforePath="" afterPath="$PROJECT_DIR$/readingSavedData.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/saveDataFiles/pickle_man_data.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/saveDataFiles/pickle_other_data.txt" />
+    <list default="true" id="cfbf1558-c3c2-4e79-a4f5-6bc1668f66fc" name="Default" comment="Setting up athlete.py for chapter 5">
+      <change beforePath="" afterPath="$PROJECT_DIR$/athlete.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/athleteTraining/james.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/athleteTraining/julie.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/athleteTraining/mikey.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/athleteTraining/sarah.txt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/fileOrder.md" afterPath="$PROJECT_DIR$/fileOrder.md" />
+      <change beforePath="$PROJECT_DIR$/readingSavedData.py" afterPath="$PROJECT_DIR$/readingSavedData.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,14 +23,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="readingSavedData.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readingSavedData.py">
+      <file leaf-file-name="athlete.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/athlete.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-              <folding>
-                <element signature="e#954#963#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fileOrder.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fileOrder.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="216">
+                <caret line="19" column="185" lean-forward="false" selection-start-line="19" selection-start-column="185" selection-end-line="19" selection-end-column="185" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -46,10 +60,14 @@
       <find>__main</find>
       <find>each_line</find>
       <find>listPrint</find>
+      <find>&amp;&amp;</find>
+      <find>'(.*\.txt)'</find>
     </findStrings>
     <replaceStrings>
       <replace>line</replace>
       <replace>list_print</replace>
+      <replace>and</replace>
+      <replace>'athleteTraining/$1'</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -78,8 +96,9 @@
         <option value="$PROJECT_DIR$/stringProcessing.py" />
         <option value="$PROJECT_DIR$/makeReadme.py" />
         <option value="$PROJECT_DIR$/saveData.py" />
-        <option value="$PROJECT_DIR$/fileOrder.md" />
         <option value="$PROJECT_DIR$/readingSavedData.py" />
+        <option value="$PROJECT_DIR$/athlete.py" />
+        <option value="$PROJECT_DIR$/fileOrder.md" />
       </list>
     </option>
   </component>
@@ -136,7 +155,7 @@
             <path>
               <item name="HeadFirstPython" type="b2602c69:ProjectViewProjectNode" />
               <item name="HeadFirstPython" type="462c0819:PsiDirectoryNode" />
-              <item name="saveDataFiles" type="462c0819:PsiDirectoryNode" />
+              <item name="athleteTraining" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -170,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.readingSavedData">
+  <component name="RunManager" selected="Python.athlete">
     <configuration name="HelloWorld" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,6 +203,24 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HeadFirstPython" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/HelloWorld.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="athlete" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HeadFirstPython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/athlete.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -243,38 +280,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="stringProcessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="HeadFirstPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stringProcessing.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.stringProcessing" />
-      <item index="1" class="java.lang.String" itemvalue="Python.saveData" />
-      <item index="2" class="java.lang.String" itemvalue="Python.makeReadme" />
-      <item index="3" class="java.lang.String" itemvalue="Python.HelloWorld" />
-      <item index="4" class="java.lang.String" itemvalue="Python.readingSavedData" />
+      <item index="0" class="java.lang.String" itemvalue="Python.saveData" />
+      <item index="1" class="java.lang.String" itemvalue="Python.makeReadme" />
+      <item index="2" class="java.lang.String" itemvalue="Python.HelloWorld" />
+      <item index="3" class="java.lang.String" itemvalue="Python.readingSavedData" />
+      <item index="4" class="java.lang.String" itemvalue="Python.athlete" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.readingSavedData" />
-        <item index="1" class="java.lang.String" itemvalue="Python.HelloWorld" />
-        <item index="2" class="java.lang.String" itemvalue="Python.saveData" />
-        <item index="3" class="java.lang.String" itemvalue="Python.makeReadme" />
-        <item index="4" class="java.lang.String" itemvalue="Python.stringProcessing" />
+        <item index="0" class="java.lang.String" itemvalue="Python.athlete" />
+        <item index="1" class="java.lang.String" itemvalue="Python.readingSavedData" />
+        <item index="2" class="java.lang.String" itemvalue="Python.HelloWorld" />
+        <item index="3" class="java.lang.String" itemvalue="Python.saveData" />
+        <item index="4" class="java.lang.String" itemvalue="Python.makeReadme" />
       </list>
     </recent_temporary>
   </component>
@@ -460,7 +479,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517386426236</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Demonstrated how to dump and load data using the pickle stdlib.">
+      <created>1517389534361</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1517389534361</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -518,7 +544,8 @@
     <MESSAGE value="Fixed finally suite's checking of 'locals()'" />
     <MESSAGE value="Introduced try-with." />
     <MESSAGE value="Changed Formatting; Added test.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed Formatting; Added test.txt" />
+    <MESSAGE value="Demonstrated how to dump and load data using the pickle stdlib." />
+    <option name="LAST_COMMIT_MESSAGE" value="Demonstrated how to dump and load data using the pickle stdlib." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -665,35 +692,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fileOrder.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="186">
-            <caret line="19" column="124" lean-forward="true" selection-start-line="19" selection-start-column="124" selection-end-line="19" selection-end-column="124" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/readFile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-255">
           <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/saveData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="25" column="26" lean-forward="false" selection-start-line="17" selection-start-column="4" selection-end-line="28" selection-end-column="16" />
           <folding />
         </state>
       </provider>
@@ -714,13 +716,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/saveData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="28" column="10" lean-forward="true" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/athleteTraining/james.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/readingSavedData.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="40" lean-forward="false" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
+        <state relative-caret-position="392">
+          <caret line="63" column="27" lean-forward="true" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="27" />
           <folding>
             <element signature="e#954#963#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/athlete.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fileOrder.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="216">
+            <caret line="19" column="185" lean-forward="false" selection-start-line="19" selection-start-column="185" selection-end-line="19" selection-end-column="185" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

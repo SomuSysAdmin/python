@@ -63,7 +63,3 @@ if 'man_list' in locals() and 'other_list' in locals():
         print(line)
     for line in other_list:
         print(line)
-
-
-
-
