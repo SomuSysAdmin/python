@@ -18,7 +18,7 @@ try:
     for line in data:
         try:
             (role, dialog) = line.split(":", 1)
-            dialog = dialog.strip()
+            dialog = dialog.strip()     # Strings are immutable, hence a new object with removed whitespace is assigned.
 
             # Adding dialog to the correct list:
             if role == "Man":
@@ -41,19 +41,26 @@ try:
         use open the files in _Access_(a) mode. If the files don't exist, they'll be created and then opened (written 
         to). To open file both for reading and writing (without clobbering) we use `w+` mode. 
     """
+
+    print("Writing to man_data.txt...", end="")
+    print("Dialogs for Man: \n", file=manOut)
+    list_print(man, manOut)
+    print("\t\tDONE!\nWriting to other_data.txt...", end="")
+    print("Dialogs for Other Man: \n", file=otherOut)
+    list_print(other, otherOut)
+    print("\tDONE!")
+
 except IOError:
     print("There was a problem while writing to the files!")
 
-print("Writing to man_data.txt...", end="")
-print("Dialogs for Man: \n", file = manOut)
-list_print(man, manOut)
-print("\t\tDONE!\nWriting to other_data.txt...", end="")
-print("Dialogs for Other Man: \n", file = otherOut)
-list_print(other, otherOut)
-print("\tDONE!")
-
-"""
-These next two lines close the files thus causing the buffer to flush and store the data in the file. 
-"""
-manOut.close()
-otherOut.close()
+finally:
+    """
+    These next two lines close the files thus causing the buffer to flush and store the data in the file. This suite is
+    executed whether or not any exceptions occur. The locals() function returns a list of all the local variables that 
+    exist. If the file couldn't be opened, the variable will refer to 'None' (python's version of null) and thus won't
+    exist
+    """
+    if manOut in locals():
+        manOut.close()
+    if otherOut in locals():
+        otherOut.close()
