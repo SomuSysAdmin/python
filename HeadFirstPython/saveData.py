@@ -51,7 +51,7 @@ try:
     print("\tDONE!")
 
 except IOError as err:
-    print("There was a problem while writing to the files: " + str(err))
+    print("There was a problem while writing to the files: " + str(err))    # typecasting from exception to string.
 
 finally:
     """
@@ -64,3 +64,24 @@ finally:
         manOut.close()
     if 'otherOut' in locals():
         otherOut.close()
+
+"""
+Since the pattern of using try-except-finally is so common while working with files, python includes a `with` clause to 
+work with files that substitutes the need to include a finally block just to close the files. The `with` clause uses a 
+python technology called *context management protocol*. Thus, there is no longer any need to manually close the files.  
+"""
+try:
+    with open('saveDataFiles/test.txt', 'w') as data:
+        print("Test Statement", file=data)
+except IOError as err:
+    print("File Error: " +str(err))
+
+"""
+For multiple data files, there isn't any need to use multiple `with` clauses:
+"""
+try:
+    with open('saveDataFiles/man_data.txt') as manOut, open('saveDataFiles/other_data.txt') as otherOut:
+        print("*EOF*", file=manOut)
+        print("*EOF*", file=otherOut)
+except IOError as err
+    print("File Error : " +str(err))
