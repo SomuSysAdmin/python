@@ -9,19 +9,19 @@ try:
             open('athleteTraining/mikey.txt') as mikeyData, open('athleteTraining/sarah.txt') as sarahData:
         for line in jamesData:
             for time in line.split(','):
-                james.append(time)
+                james.append(time.strip())
 
         for line in julieData:
             for time in line.split(','):
-                julie.append(time)
+                julie.append(time.strip())
 
         for line in mikeyData:
             for time in line.split(','):
-                mikey.append(time)
+                mikey.append(time.strip())
 
         for line in sarahData:
             for time in line.split(','):
-                sarah.append(time)
+                sarah.append(time.strip())
 
 except Exception as err:
     print("File Error : " + str(err))
