@@ -80,8 +80,8 @@ except IOError as err:
 For multiple data files, there isn't any need to use multiple `with` clauses:
 """
 try:
-    with open('saveDataFiles/man_data.txt') as manOut, open('saveDataFiles/other_data.txt') as otherOut:
+    with open('saveDataFiles/man_data.txt','w') as manOut, open('saveDataFiles/other_data.txt','w') as otherOut:
         print("*EOF*", file=manOut)
         print("*EOF*", file=otherOut)
-except IOError as err
-    print("File Error : " +str(err))
+except IOError as err:
+    print("File Error : " + str(err))
