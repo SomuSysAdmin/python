@@ -50,8 +50,8 @@ try:
     list_print(other, otherOut)
     print("\tDONE!")
 
-except IOError:
-    print("There was a problem while writing to the files!")
+except IOError as err:
+    print("There was a problem while writing to the files: " + str(err))
 
 finally:
     """
@@ -60,7 +60,7 @@ finally:
     exist. If the file couldn't be opened, the variable will refer to 'None' (python's version of null) and thus won't
     exist
     """
-    if manOut in locals():
+    if 'manOut' in locals():
         manOut.close()
-    if otherOut in locals():
+    if 'otherOut' in locals():
         otherOut.close()
