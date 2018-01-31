@@ -8,20 +8,20 @@ try:
     with open('athleteTraining/james.txt') as jamesData, open('athleteTraining/julie.txt') as julieData, \
             open('athleteTraining/mikey.txt') as mikeyData, open('athleteTraining/sarah.txt') as sarahData:
         for line in jamesData:
-            for time in line.split(','):
-                james.append(time.strip())
+            for time in line.strip().split(','):
+                james.append(time)
 
         for line in julieData:
-            for time in line.split(','):
-                julie.append(time.strip())
+            for time in line.strip().split(','):
+                julie.append(time)
 
         for line in mikeyData:
-            for time in line.split(','):
-                mikey.append(time.strip())
+            for time in line.strip().split(','):
+                mikey.append(time)
 
         for line in sarahData:
-            for time in line.split(','):
-                sarah.append(time.strip())
+            for time in line.strip().split(','):
+                sarah.append(time)
 
 except Exception as err:
     print("File Error : " + str(err))
