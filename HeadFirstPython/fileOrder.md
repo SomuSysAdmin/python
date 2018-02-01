@@ -31,3 +31,5 @@
 - dictionaryIntro.py
 - athleteV2.py
 - athleteV3.py
+- classesIntro.py
+- athleteV4.py
