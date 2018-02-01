@@ -8,7 +8,7 @@ try:
     with open('athleteTraining/james.txt') as jamesData, open('athleteTraining/julie.txt') as julieData, \
             open('athleteTraining/mikey.txt') as mikeyData, open('athleteTraining/sarah.txt') as sarahData:
         for line in jamesData:
-            for time in line.strip().split(','):
+            for time in line.strip().split(','):        # This is called Method chaining.
                 james.append(time)
 
         for line in julieData:
