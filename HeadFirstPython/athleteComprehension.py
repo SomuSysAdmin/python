@@ -1,4 +1,3 @@
-import os
 james = []
 julie = []
 mikey = []
@@ -82,14 +81,3 @@ print("James'  top 3 times: " + str(unique_james[0:3]))
 print("Julie's top 3 times: " + str(unique_julie[0:3]))
 print("Mikey's top 3 times: " + str(unique_mikey[0:3]))
 print("Sarah's top 3 times: " + str(unique_sarah[0:3]))
-
-"""
-The code below does everything that the above code does, but with far lesser effort. 
-"""
-# Creating sets to store unique data:
-print("\nProcessed using a set: ")
-print("James'  top 3 times: " + str(sorted(set([sanitize(time) for time in james]))[0:3]))  # This is called function
-                                                                                            # chaining
-print("Julie's top 3 times: " + str(sorted(set([sanitize(time) for time in julie]))[0:3]))
-print("Mikey's top 3 times: " + str(sorted(set([sanitize(time) for time in mikey]))[0:3]))
-print("Sarah's top 3 times: " + str(sorted(set([sanitize(time) for time in sarah]))[0:3]))

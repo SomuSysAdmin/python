@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfbf1558-c3c2-4e79-a4f5-6bc1668f66fc" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/athleteComprehension.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/listComprehensions.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/setIntro.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/athleteSet.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/athleteComprehension.py" afterPath="$PROJECT_DIR$/athleteComprehension.py" />
       <change beforePath="$PROJECT_DIR$/fileOrder.md" afterPath="$PROJECT_DIR$/fileOrder.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,32 +19,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="athleteComprehension.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/athleteComprehension.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="setIntro.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/setIntro.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fileOrder.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="fileOrder.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fileOrder.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="247">
-                <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+              <first_editor relative-caret-position="126">
+                <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -119,9 +98,10 @@
         <option value="$PROJECT_DIR$/listSort.py" />
         <option value="$PROJECT_DIR$/athlete.py" />
         <option value="$PROJECT_DIR$/listComprehensions.py" />
-        <option value="$PROJECT_DIR$/fileOrder.md" />
         <option value="$PROJECT_DIR$/setIntro.py" />
         <option value="$PROJECT_DIR$/athleteComprehension.py" />
+        <option value="$PROJECT_DIR$/athleteSet.py" />
+        <option value="$PROJECT_DIR$/fileOrder.md" />
       </list>
     </option>
   </component>
@@ -244,6 +224,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="athleteSet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HeadFirstPython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/athleteSet.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="listComprehensions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -257,24 +255,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HeadFirstPython" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listComprehensions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="listSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="HeadFirstPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listSort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -300,18 +280,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.athlete" />
-      <item index="1" class="java.lang.String" itemvalue="Python.listSort" />
-      <item index="2" class="java.lang.String" itemvalue="Python.listComprehensions" />
-      <item index="3" class="java.lang.String" itemvalue="Python.athleteComprehension" />
-      <item index="4" class="java.lang.String" itemvalue="Python.setIntro" />
+      <item index="1" class="java.lang.String" itemvalue="Python.listComprehensions" />
+      <item index="2" class="java.lang.String" itemvalue="Python.athleteComprehension" />
+      <item index="3" class="java.lang.String" itemvalue="Python.setIntro" />
+      <item index="4" class="java.lang.String" itemvalue="Python.athleteSet" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.athleteComprehension" />
-        <item index="1" class="java.lang.String" itemvalue="Python.setIntro" />
-        <item index="2" class="java.lang.String" itemvalue="Python.listComprehensions" />
-        <item index="3" class="java.lang.String" itemvalue="Python.athlete" />
-        <item index="4" class="java.lang.String" itemvalue="Python.listSort" />
+        <item index="1" class="java.lang.String" itemvalue="Python.athleteSet" />
+        <item index="2" class="java.lang.String" itemvalue="Python.setIntro" />
+        <item index="3" class="java.lang.String" itemvalue="Python.listComprehensions" />
+        <item index="4" class="java.lang.String" itemvalue="Python.athlete" />
       </list>
     </recent_temporary>
   </component>
@@ -546,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517467904854</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Introduced sets, and implemented entire program using sets.">
+      <created>1517475992875</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1517475992875</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -580,7 +567,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Completed Chapter 1 of Head First Python! - Removed excess spaces!" />
     <MESSAGE value="Added modules introduction." />
     <MESSAGE value="Added an module called `nester.py`. Also added the folder `nester` to act as a container for the distribution, with the metadata stored in `setup.py`." />
     <MESSAGE value="Built and installed custom module `nester`. Added explanations in moduleIntro.py" />
@@ -605,7 +591,8 @@
     <MESSAGE value="Demonstrated in-place and copied sorting." />
     <MESSAGE value="Demonstrated function chaining and descending sort." />
     <MESSAGE value="Introduced list comprehension (transformations)." />
-    <option name="LAST_COMMIT_MESSAGE" value="Introduced list comprehension (transformations)." />
+    <MESSAGE value="Introduced sets, and implemented entire program using sets." />
+    <option name="LAST_COMMIT_MESSAGE" value="Introduced sets, and implemented entire program using sets." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -821,6 +808,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/setIntro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/athleteSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/athleteComprehension.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="63" column="0" lean-forward="true" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fileOrder.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -830,27 +841,11 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="247">
-            <caret line="26" column="13" lean-forward="false" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <first_editor relative-caret-position="126">
+            <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
             <folding />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/setIntro.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/athleteComprehension.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
