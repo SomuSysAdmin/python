@@ -22,3 +22,6 @@
 #### Chapter 5 - Data Processing
 - listSort.py
 - athlete.py --> Has input files in [this](athleteTraining/) directory. 
+- listComprehensions.py
+- athleteComprehension.py
+- setIntro.py
