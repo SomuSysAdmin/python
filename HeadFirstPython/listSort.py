@@ -7,11 +7,17 @@ doesn't create a new copy of the data, but replaces the original list with the s
 list's reference to the original object, thus removing the original list). 
 """
 
-print("Copying and Sorting: ")
+print("\nCopying and Sorting: ")
 sortedData = sorted(data)       # Copies and sorts
 print("Original Array = " + str(data))
 print("Sorted   Array = " + str(sortedData))
 
-print("Performing in-place Sort: ")
+print("\nPerforming in-place Sort: ")
 data.sort()     # In place sorting.
 print("Original Array = " + str(data))
+
+"""
+To sort using .sort or sorted() in descending order, all we need to do is pass the argument reverse=True
+"""
+print("\nList in descending order:")
+print(sorted(data, reverse = True))
