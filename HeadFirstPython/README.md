@@ -32,3 +32,5 @@
 - [dictionaryIntro.py](dictionaryIntro.py)
 - [athleteV2.py](athleteV2.py)
 - [athleteV3.py](athleteV3.py)
+- [classesIntro.py](classesIntro.py)
+- [athleteV4.py](athleteV4.py)

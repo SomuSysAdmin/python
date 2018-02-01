@@ -8,9 +8,9 @@ should ideally get it's own dedicated method.
 class Athlete:
 	def __init__(self, arg_name, arg_dob, arg_times):
 		"""
-		:param argName: 	The name of the athlete
-		:param argDOB: 		The Date of birth of the athlete
-		:param argTimes:	The list of times for each athlete.
+		:param arg_name: 	The name of the athlete
+		:param arg_dob: 	The Date of birth of the athlete
+		:param arg_times:	The list of times for each athlete.
 		"""
 		self.name = arg_name
 		self.dob = arg_dob
