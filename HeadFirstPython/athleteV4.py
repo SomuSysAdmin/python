@@ -6,7 +6,7 @@ should ideally get it's own dedicated method.
 
 # Classes:
 class Athlete:
-	def __init__(self, arg_name, arg_dob, arg_times):
+	def __init__(self, arg_name, arg_dob=None, arg_times=[]):
 		"""
 		:param arg_name: 	The name of the athlete
 		:param arg_dob: 	The Date of birth of the athlete
@@ -15,9 +15,23 @@ class Athlete:
 		self.name = arg_name
 		self.dob = arg_dob
 		self.times = arg_times
+	"""
+	We're storing the entire list of times, instead of just the top 3 since we might need to extend the functionality of 
+	the program in the future, and in such cases the flexible design of a function helps a lot.
+	"""
 
 	def top3(self):
 		return sorted(set([sanitize(t) for t in self.times]))[0:3]
+
+	"""
+	We're adding two new methods : add_time(), which adds a single time to the record and add_times() which adds multiple
+	"""
+
+	def add_time(self, t):
+		self.times.append(t)
+
+	def add_times(self, t):
+		self.times.extend(t)
 
 
 # Static Methods:
@@ -60,3 +74,9 @@ printObj(julie)
 printObj(mikey)
 printObj(sarah)
 
+# Testing code for new functionality:
+vera = Athlete('Vera Vi', '1991-01-02')
+vera.add_time('1.31')
+printObj(vera)
+vera.add_times(['2.22', "1-21", '2:22'])
+printObj(vera)
