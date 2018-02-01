@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfbf1558-c3c2-4e79-a4f5-6bc1668f66fc" name="Default" comment="">
+    <list default="true" id="cfbf1558-c3c2-4e79-a4f5-6bc1668f66fc" name="Default" comment="Introduced String">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/athlete.py" afterPath="$PROJECT_DIR$/athlete.py" />
-      <change beforePath="$PROJECT_DIR$/listSort.py" afterPath="$PROJECT_DIR$/listSort.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +20,8 @@
       <file leaf-file-name="athlete.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/athlete.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state relative-caret-position="215">
+              <caret line="67" column="46" lean-forward="true" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -90,8 +89,8 @@
         <option value="$PROJECT_DIR$/saveData.py" />
         <option value="$PROJECT_DIR$/readingSavedData.py" />
         <option value="$PROJECT_DIR$/fileOrder.md" />
-        <option value="$PROJECT_DIR$/athlete.py" />
         <option value="$PROJECT_DIR$/listSort.py" />
+        <option value="$PROJECT_DIR$/athlete.py" />
       </list>
     </option>
   </component>
@@ -177,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.listSort">
+  <component name="RunManager" selected="Python.athlete">
     <configuration name="HelloWorld" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,8 +276,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.listSort" />
-        <item index="1" class="java.lang.String" itemvalue="Python.athlete" />
+        <item index="0" class="java.lang.String" itemvalue="Python.athlete" />
+        <item index="1" class="java.lang.String" itemvalue="Python.listSort" />
         <item index="2" class="java.lang.String" itemvalue="Python.readingSavedData" />
         <item index="3" class="java.lang.String" itemvalue="Python.HelloWorld" />
         <item index="4" class="java.lang.String" itemvalue="Python.saveData" />
@@ -502,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517465613555</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="Demonstrated function chaining and descending sort.">
+      <created>1517466701790</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1517466701790</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -536,7 +542,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Started section on functions." />
     <MESSAGE value="Completed Chapter 1 of Head First Python!" />
     <MESSAGE value="Completed Chapter 1 of Head First Python! - Removed excess spaces!" />
     <MESSAGE value="Added modules introduction." />
@@ -561,7 +566,8 @@
     <MESSAGE value="Setting up athlete.py for chapter 5; also appended fileOrder.md to highlight new changes." />
     <MESSAGE value="Stripped extra white space from input files." />
     <MESSAGE value="Demonstrated in-place and copied sorting." />
-    <option name="LAST_COMMIT_MESSAGE" value="Demonstrated in-place and copied sorting." />
+    <MESSAGE value="Demonstrated function chaining and descending sort." />
+    <option name="LAST_COMMIT_MESSAGE" value="Demonstrated function chaining and descending sort." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -780,8 +786,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/athlete.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="48" column="0" lean-forward="true" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="215">
+          <caret line="67" column="46" lean-forward="true" selection-start-line="67" selection-start-column="46" selection-end-line="67" selection-end-column="46" />
           <folding />
         </state>
       </provider>
