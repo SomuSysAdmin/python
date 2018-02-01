@@ -18,3 +18,12 @@
 
 #### Chapter 4 - Saving Data to files. 
 - [saveData.py](saveData.py) --> Output contained in `saveDataFiles/man_data.txt` [here](saveDataFiles/man_data.txt) and `saveDataFiles/other_data.txt` [here](saveDataFiles/other_data.txt). 
+- [readingSavedData.py](readingSavedData.py)--> Related files in `saveDataFiles/pickle_man_data.txt` [here](saveDataFiles/pickle_man_data.txt) and `saveDataFiles/pickle_other_data.txt` [here](saveDataFiles/pickle_other_data.txt). 
+
+#### Chapter 5 - Data Processing
+- [listSort.py](listSort.py)
+- [athlete.py](athlete.py) --> Has input files in [this](athleteTraining/) directory. 
+- [listComprehensions.py](listComprehensions.py)
+- [athleteComprehension.py](athleteComprehension.py)
+- [setIntro.py](setIntro.py)
+- [athleteSet.py](athleteSet.py)
