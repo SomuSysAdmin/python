@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfbf1558-c3c2-4e79-a4f5-6bc1668f66fc" name="Default" comment="Created">
-      <change beforePath="" afterPath="$PROJECT_DIR$/athleteTraining/james2.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/athleteTraining/julie2.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/athleteTraining/mikey2.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/athleteTraining/sarah2.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/athleteV2.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/athleteV3.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/dictionaryIntro.py" />
+    <list default="true" id="cfbf1558-c3c2-4e79-a4f5-6bc1668f66fc" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/fileOrder.md" afterPath="$PROJECT_DIR$/fileOrder.md" />
-      <change beforePath="$PROJECT_DIR$/makeReadme.py" afterPath="$PROJECT_DIR$/makeReadme.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,8 +19,8 @@
       <file leaf-file-name="athleteV3.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/athleteV3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="110">
+              <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -567,7 +558,14 @@
       <option name="project" value="LOCAL" />
       <updated>1517477010531</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Created athleteV3.py to showcase the use of dictionaries.">
+      <created>1517483454414</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1517483454414</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -601,7 +599,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Built and installed custom module `nester`. Added explanations in moduleIntro.py" />
     <MESSAGE value="Completed the first draft of the nester function. Will add more functionality now!" />
     <MESSAGE value="Added an option to add a tab-stop before each sub-list to show hierarchy via indentation." />
     <MESSAGE value="Made `level` an optional argument so that existing code doesn't break!" />
@@ -626,7 +623,8 @@
     <MESSAGE value="Introduced sets, and implemented entire program using sets." />
     <MESSAGE value="Added a new file to ease introduction to sets and it's application." />
     <MESSAGE value="Updated Readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Readme.md" />
+    <MESSAGE value="Created athleteV3.py to showcase the use of dictionaries." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created athleteV3.py to showcase the use of dictionaries." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -914,8 +912,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/athleteV3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="110">
+          <caret line="34" column="50" lean-forward="true" selection-start-line="34" selection-start-column="50" selection-end-line="34" selection-end-column="50" />
           <folding />
         </state>
       </provider>
