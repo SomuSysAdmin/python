@@ -26,3 +26,8 @@
 - athleteComprehension.py
 - setIntro.py
 - athleteSet.py
+
+#### Chapter 6 - Dictionaries and Classes
+- dictionaryIntro.py
+- athleteV2.py
+- athleteV3.py

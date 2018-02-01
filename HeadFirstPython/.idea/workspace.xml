@@ -1,9 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfbf1558-c3c2-4e79-a4f5-6bc1668f66fc" name="Default" comment="">
+    <list default="true" id="cfbf1558-c3c2-4e79-a4f5-6bc1668f66fc" name="Default" comment="Created">
+      <change beforePath="" afterPath="$PROJECT_DIR$/athleteTraining/james2.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/athleteTraining/julie2.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/athleteTraining/mikey2.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/athleteTraining/sarah2.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/athleteV2.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/athleteV3.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dictionaryIntro.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/fileOrder.md" afterPath="$PROJECT_DIR$/fileOrder.md" />
+      <change beforePath="$PROJECT_DIR$/makeReadme.py" afterPath="$PROJECT_DIR$/makeReadme.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +24,31 @@
     <favorites_list name="HeadFirstPython" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="athleteV3.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/athleteV3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fileOrder.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fileOrder.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="231">
+                <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -85,7 +117,11 @@
         <option value="$PROJECT_DIR$/setIntro.py" />
         <option value="$PROJECT_DIR$/athleteComprehension.py" />
         <option value="$PROJECT_DIR$/athleteSet.py" />
+        <option value="$PROJECT_DIR$/venv/athletev2.py" />
+        <option value="$PROJECT_DIR$/dictionaryIntro.py" />
+        <option value="$PROJECT_DIR$/athleteV2.py" />
         <option value="$PROJECT_DIR$/fileOrder.md" />
+        <option value="$PROJECT_DIR$/athleteV3.py" />
       </list>
     </option>
   </component>
@@ -131,8 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -144,6 +178,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,12 +187,12 @@
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/saveDataFiles" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/saveDataFiles" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -171,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.makeReadme">
+  <component name="RunManager" selected="Python.athleteV3">
     <configuration name="athleteComprehension" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -190,7 +226,7 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="athleteSet" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="athleteV2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -202,13 +238,13 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HeadFirstPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/athleteSet.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/athleteV2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="listComprehensions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="athleteV3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -220,7 +256,25 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="HeadFirstPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/listComprehensions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/athleteV3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="dictionaryIntro" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HeadFirstPython" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dictionaryIntro.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,38 +298,20 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="setIntro" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="HeadFirstPython" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/setIntro.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.listComprehensions" />
-      <item index="1" class="java.lang.String" itemvalue="Python.athleteComprehension" />
-      <item index="2" class="java.lang.String" itemvalue="Python.setIntro" />
-      <item index="3" class="java.lang.String" itemvalue="Python.athleteSet" />
-      <item index="4" class="java.lang.String" itemvalue="Python.makeReadme" />
+      <item index="0" class="java.lang.String" itemvalue="Python.athleteComprehension" />
+      <item index="1" class="java.lang.String" itemvalue="Python.makeReadme" />
+      <item index="2" class="java.lang.String" itemvalue="Python.athleteV2" />
+      <item index="3" class="java.lang.String" itemvalue="Python.dictionaryIntro" />
+      <item index="4" class="java.lang.String" itemvalue="Python.athleteV3" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.makeReadme" />
-        <item index="1" class="java.lang.String" itemvalue="Python.athleteComprehension" />
-        <item index="2" class="java.lang.String" itemvalue="Python.athleteSet" />
-        <item index="3" class="java.lang.String" itemvalue="Python.setIntro" />
-        <item index="4" class="java.lang.String" itemvalue="Python.listComprehensions" />
+        <item index="0" class="java.lang.String" itemvalue="Python.athleteV3" />
+        <item index="1" class="java.lang.String" itemvalue="Python.athleteV2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.dictionaryIntro" />
+        <item index="3" class="java.lang.String" itemvalue="Python.makeReadme" />
+        <item index="4" class="java.lang.String" itemvalue="Python.athleteComprehension" />
       </list>
     </recent_temporary>
   </component>
@@ -524,16 +560,24 @@
       <option name="project" value="LOCAL" />
       <updated>1517476666526</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Updated Readme.md">
+      <created>1517477010531</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1517477010531</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2675112" sideWeight="0.4902507" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17883755" sideWeight="0.4902507" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39966556" sideWeight="0.5060698" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36777583" sideWeight="0.4939302" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36777583" sideWeight="0.4939302" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32943144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962063" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -557,7 +601,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added an module called `nester.py`. Also added the folder `nester` to act as a container for the distribution, with the metadata stored in `setup.py`." />
     <MESSAGE value="Built and installed custom module `nester`. Added explanations in moduleIntro.py" />
     <MESSAGE value="Completed the first draft of the nester function. Will add more functionality now!" />
     <MESSAGE value="Added an option to add a tab-stop before each sub-list to show hierarchy via indentation." />
@@ -582,7 +625,8 @@
     <MESSAGE value="Introduced list comprehension (transformations)." />
     <MESSAGE value="Introduced sets, and implemented entire program using sets." />
     <MESSAGE value="Added a new file to ease introduction to sets and it's application." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a new file to ease introduction to sets and it's application." />
+    <MESSAGE value="Updated Readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Readme.md" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -594,6 +638,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/athlete.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -700,16 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/saveDataFiles/test.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -794,13 +839,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/athleteSet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/athleteComprehension.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -808,11 +846,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/makeReadme.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="490">
+            <caret line="24" column="86" lean-forward="false" selection-start-line="24" selection-start-column="86" selection-end-line="24" selection-end-column="86" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/athleteSet.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dictionaryIntro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="33" column="11" lean-forward="false" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/athleteV2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="37" column="15" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/athleteTraining/sarah2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fileOrder.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="126">
-            <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <first_editor relative-caret-position="231">
+            <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -823,10 +912,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/makeReadme.py">
+    <entry file="file://$PROJECT_DIR$/athleteV3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="260">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
