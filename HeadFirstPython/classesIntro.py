@@ -68,3 +68,40 @@ print("Values in James: ")
 james.value_dump()
 print(james.dob)
 
+# Static Methods and variables:
+print("\n\nStatic Test:")
+
+
+class Test:
+	x = "Hello..."	# Shared between all copies of the class. Must be used as `ClassName.varName`
+
+	def __init__(self, nm):
+		self.x = "Hellllooooo"
+		self.name = nm
+
+	def printx(self):
+		print(self.name + " -- Init Val = " + self.x)
+
+	@staticmethod				# Proper way to declare a static method within a class.
+	def printx_stat():
+		print("Static Val = " + Test.x)
+
+
+print("Direct access of static var = " + Test.x)
+obj1 = Test("obj1")
+obj2 = Test("obj2")
+obj1.printx_stat()
+obj1.printx()
+obj2.x = "World!"
+obj2.printx_stat()
+obj2.printx()
+obj1.printx_stat()
+obj1.printx()
+Test.x = "Goodbye!"
+obj1.printx_stat()
+obj1.printx()
+obj2.x = "World!"
+obj2.printx_stat()
+obj2.printx()
+
+

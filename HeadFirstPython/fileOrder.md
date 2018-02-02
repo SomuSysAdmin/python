@@ -33,3 +33,5 @@
 - athleteV3.py
 - classesIntro.py
 - athleteV4.py
+- inheritanceIntro.py
+- athleteV5.py

@@ -34,3 +34,5 @@
 - [athleteV3.py](athleteV3.py)
 - [classesIntro.py](classesIntro.py)
 - [athleteV4.py](athleteV4.py)
+- [inheritanceIntro.py](inheritanceIntro.py)
+- [athleteV5.py](athleteV5.py)
