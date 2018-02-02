@@ -13,7 +13,7 @@ of their individual functionality. These steps are:
 # Setup:
 import sqlite3
 try:
-	connection = sqlite3.connect('testDB.sqlite')
+	connection = sqlite3.connect('dataStores/testDB.sqlite')
 	cursor = connection.cursor()
 except Exception as err:
 	print("An exception occurred: "+ str(err))
@@ -72,7 +72,7 @@ class DBCon:
 
 
 # Actual Code:
-db_obj = DBCon('testDB.sqlite')
+db_obj = DBCon('dataStores/testDB.sqlite')
 cur = db_obj.get_cur()
 
 sql_query = """

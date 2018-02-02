@@ -37,5 +37,7 @@
 - [inheritanceIntro.py](inheritanceIntro.py)
 - [athleteV5.py](athleteV5.py)
 
-#### Extra Stuff - Databases
-- [sqliteIntro.py](sqliteIntro.py) --> creates `sqlite3` database [testDB.sqlite](testDB.sqlite)
+#### Extra Stuff - Databases and Data Transfer formats 
+- [sqliteIntro.py](sqliteIntro.py) --> creates `sqlite3` database [testDB.sqlite](dataStores/testDB.sqlite)
+- [jsonIntro.py](jsonIntro.py)
+- 
