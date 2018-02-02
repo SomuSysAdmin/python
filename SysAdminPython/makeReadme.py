@@ -4,10 +4,10 @@ We need to create a README.md file and fill its contents with that of the fileOr
     file entry with an appropriate hyperlink.
 """
 
-os.chdir('/home/somu/Programming/python/HeadFirstPython')
+os.chdir('/home/somu/Programming/python/SysAdminPython')
 try:
     with open ('fileOrder.md') as readFile, open("README.md", 'w') as writeFile:
-        print("## Python tutorials for Coders:", file = writeFile)
+        print("## Tutorials for System Administraiton & Automation using Python", file=writeFile)
         for line in readFile:
             if '-' in line and ".py" in line:
                 startIdx = line.find("-")+2
