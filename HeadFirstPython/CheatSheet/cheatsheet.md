@@ -9,6 +9,6 @@
 ## print()
     1.1.1 To print `Hello, World!`:
 
-```Python 
+```Python
 print("Hello, World!")
 ```
