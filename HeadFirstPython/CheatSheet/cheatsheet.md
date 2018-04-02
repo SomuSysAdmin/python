@@ -26,7 +26,7 @@
 	print("Hello, \nWorld!")
 	```
 	Output:
-	>Hello,
+	>Hello,  
 	>World!
 
 * Multiple print statements:
@@ -35,8 +35,8 @@
 	print("and full of terrors...")
 	```
 	Output:
-	>The night is dark,
-	And full of terrors...
+	>The night is dark,  
+	and full of terrors...
 
 * To stop printing new line at end of print:
 
