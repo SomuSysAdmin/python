@@ -7,6 +7,3 @@
 
 ### Sections List:
 1. print()
-
----
-## Built In Functions(_BIFs_)
