@@ -24,7 +24,7 @@ cast.insert(1, "Palin")     # To insert element at a specific index
 print(cast)
 cast.extend(["Gilliam", "Chapman"])
 print(cast)
-cast2=["Test1", "Test2", "Test3"]
+cast2=["Test1", "Test2", "Test3"]9
 cast.extend(cast2)      # Add an entire list to the end of the current list
 print(cast)
 cast.pop(-2)            # Remove the element with the 2nd last index

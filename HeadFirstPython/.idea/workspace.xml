@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfbf1558-c3c2-4e79-a4f5-6bc1668f66fc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/CheatSheet/cheatsheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/CheatSheet/cheatsheet.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ListIntro.py" beforeDir="false" afterPath="$PROJECT_DIR$/ListIntro.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +20,8 @@
       <file leaf-file-name="ListIntro.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ListIntro.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+            <state relative-caret-position="381">
+              <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -84,7 +85,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/HelloWorld.py" />
-        <option value="$PROJECT_DIR$/ListIntro.py" />
         <option value="$PROJECT_DIR$/iterationIntro.py" />
         <option value="$PROJECT_DIR$/nester.py" />
         <option value="$PROJECT_DIR$/nester/setup.py" />
@@ -114,6 +114,7 @@
         <option value="$PROJECT_DIR$/fileOrder.md" />
         <option value="$PROJECT_DIR$/jsonIntro.py" />
         <option value="$PROJECT_DIR$/yamlIntro.py" />
+        <option value="$PROJECT_DIR$/ListIntro.py" />
       </list>
     </option>
   </component>
@@ -149,7 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,6 +166,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -611,18 +612,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4902507" visible="true" weight="0.18181819" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4902507" visible="true" weight="0.18181819" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5089419" side_tool="true" weight="0.36777583" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4910581" weight="0.366782" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32943144" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32943144" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4910581" weight="0.366782" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24962063" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32943144" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4939302" weight="0.41856393" />
       <window_info id="Favorites" order="2" sideWeight="0.5097493" side_tool="true" weight="0.26783004" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4939302" weight="0.41856393" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -676,6 +676,20 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ListIntro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ListIntro.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/makeReadme.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -893,8 +907,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ListIntro.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        <state relative-caret-position="381">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
         </state>
       </provider>
     </entry>
