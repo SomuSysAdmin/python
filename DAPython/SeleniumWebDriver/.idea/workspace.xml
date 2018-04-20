@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dc96b6f-75d4-4388-8b56-744628edcdb2" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/NoBrokerScrapingTest/locality.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoBrokerScrapingTest/localityCommonFloorDetailed500.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NoBrokerScrapingTest/singleSearch.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NoBrokerScrapingTest/singleSearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/NoBrokerScrapingTest/singleSearch.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,8 +17,8 @@
       <file leaf-file-name="singleSearch.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NoBrokerScrapingTest/singleSearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="966">
-              <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+            <state relative-caret-position="108">
+              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -50,6 +48,7 @@
     <findStrings>
       <find>['1 BHK In Dunhill Gardens, 4th Phase, J P Nagar', '1 BHK In Madhava Nilaya, JP Nagar', '1 BHK In Lakshmi Nilayam, JP Nagar', '1 BHK In J P Nagar', '1 BHK In Raga Nilaya, JP Nagar 1st Phase', '1 BHK In JP Nagar', '1 BHK In JP Nagar', '1 BHK In Skanda, JP Nagar', '1 BHK In JP Nagar 7th Phase', '1 BHK In JP Nagar', '1 BHK In Taheri Makaan, J P Nagar 5 Phase', '1 BHK In JP Nagar, Bengaluru, Karnataka, India', '1 BHK In Renuka Nilaya, JP Nagar 7 Th Phase', '1 BHK In Ashraya Apartments, JP Nagar Phase 6,', '1 BHK In Ashraya, JP Nagar', '1 BHK In JP Nagar', '1 BHK In Lakshmi Nilaya, 1792, Deepthi Nagar, JP Nagar 9th Phase, ...', '1 BHK In JP Nagar', '1 BHK In Balaji Bhavan, J P Nagar Phase 5', '1 BHK In SRIJAN, JP Nagar,', '1 BHK In J P Nagar', '1 BHK In JP Nagar', '1 BHK In Byraveshwara Nilaya, JP Nagar', '1 BHK In Sriranganidhi, JP Nagar,', '1 BHK In Shubha Daya, J P Nagar', '1 BHK In JP Nagar', '1 BHK In Lakshmi Nivas, JP Nagar', '1 BHK In Keerthi Nilaya, JP Nagar', '1 BHK In J P Nagar', '1 BHK In Jyothi Nilaya, 2nd Phase, JP Nagar', '1 BHK In JP Nagar', '1 BHK In 1st Phase, JP Nagar,', '1 BHK In JP Nagar', '1 BHK In JP Nagar', '1 BHK In JP Nagar', '1 BHK In RGH Nilaya, JP Nagar', '1 BHK In Rangamma Nilaya, JP Nagar', '1 BHK In J P Nagar', '1 BHK In JP Nagar', '1 BHK In Sri Rama Nilaya, J P Nagar', '1 BHK In JP Nagar', '1 BHK In J P Nagar', '1 BHK In JP Nagar 9th Phase,', '1 BHK In JP Nagar', '1 BHK In Sai Skanda Nilaya, JP Nagar', '1 BHK In Amogha Varsha, JP Nagar', '1 BHK In J. P. Nagar', '1 BHK In JP Nagar Phase 6', '1 BHK In JP Nagar', '1 BHK In Champakadhama Nilaya, 474, 12th Main Road, J P Nagar Pha ...', '1 BHK In Ammanna Mane, JP Nagar', '1 BHK In JP Nagar 9th Phase', '1 BHK In Basava Krupa, JP Nagar', '1 BHK In JP Nagar 6th Phase', '1 BHK In Shams Villa, J P Nagar Phase 5', '1 BHK In JP Nagar 7th Phase', '1 BHK In JP Nagar', '1 BHK In JP Nagar', '1 BHK In JP Nagar', '1 BHK In Beereshwara Nilaya, JP Nagar', '1 BHK In JP Nagar Phase 5', '1 BHK In JP Nagar', '1 BHK In Kaustubha, JP Nagar', '1 BHK In Raksha Ganapathi, JP Nagar', '1 BHK In J P Nagar Phase 5', '1 BHK In Maruthi Nilaya, JP Nagar', '1 BHK In J P Nagar', '1 BHK In JP Nagar', '1 BHK In Kaveri Nilaya, JP Nagar', '1 BHK In J P Nagar', '1 BHK In Konanakunte', '1 BHK In Sheet House, JP Nagar 7th Phase', '1 BHK In Royal Lake Front Residency Phase II, JP Nagar', '1 BHK In JP NAGAR', '1 BHK In JP Nagar', '1 BHK In JP Nagar', '1 BHK In J P Nagar', '1 BHK In JP Nagar', '1 BHK In J P Nagar', '1 BHK In Munshiji, JP Nagar', '1 BHK In JP Nagar', '1 BHK In JP Nagar', '1 BHK In Namda Deepa, JP Nagar', '1 BHK In JP Nagar', '1 BHK In Putte Godu, JP Nagar', '1 BHK In JP Nagar', '1 BHK In Lakshmi Ranganath Nilaya, JP Nagar', '1 BHK In Dutta Kutira, JP Nagar 7th Phase', '1 BHK In JP Nagar', '1 BHK In JP Nagar', '1 BHK In Kasi Nilaya, Jaraganahalli', '1 BHK In Phase 7, JP Nagar', '1 BHK In JP Nagar', '1 BHK In JP Nagar', '1 BHK In JP Nagar', '1 BHK In JP Nagar 7th Phase', '1 BHK In JP Nagar', '1 BHK In JP Nagar', '1 BHK In JP Nagar', '1 BHK In Oblase Nilaya, JP Nagar', '1 BHK In J P Nagar', '1 BHK In Brindavan Enamour, JP Nagar', '1 BHK In JP Nagar', '1 BHK In JP Nagar', '1 BHK In Shabri Niwas, JP Nagar Phase 6', '1 BHK In JP Nagar', '1 BHK In JP Nagar', '1 BHK In Sarojamma Building, JP Nagar 8th Phase', '1 BHK In Sharadamma, JP Nagar', '1 BHK In JP Nagar', '1 BHK In JP Nagar', '1 BHK In Aniketana, JP Nagar', '1 BHK In J P Nagar', '1 BHK In Maatruchaya, J. P. Nagar', '1 BHK In JP Nagar', '1 BHK In JP Nagar', '1 BHK In Adhi Narayana Nilaya, JP Nagar 7th Phase', '1 BHK In Sai Nilaya, JP Nagar', '1 BHK In J P Nagar Phase 5', '1 BHK In Krishna Gowda NIlaya, JP Nagar', '1 BHK In JP Nagar']</find>
       <find>'350', 'sqft', '450,000',</find>
+      <find>print</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -254,11 +253,19 @@
       <option name="project" value="LOCAL" />
       <updated>1524165803570</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Working on the python web-scraping script for nobroker.com">
+      <created>1524265158343</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1524265158344</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962743" />
       <window_info anchor="bottom" id="TODO" order="10" />
@@ -285,7 +292,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added selenium module files" />
     <MESSAGE value="Completed &quot;Using the Selenium Module&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed &quot;Using the Selenium Module&quot;" />
+    <MESSAGE value="Working on the python web-scraping script for nobroker.com" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on the python web-scraping script for nobroker.com" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/NoBrokerScrapingTest/singleSearch.py">
@@ -359,8 +367,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/NoBrokerScrapingTest/singleSearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="966">
-          <caret line="69" column="1" selection-start-line="69" selection-start-column="1" selection-end-line="69" selection-end-column="1" />
+        <state relative-caret-position="108">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>

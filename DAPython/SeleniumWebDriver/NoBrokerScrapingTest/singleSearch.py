@@ -41,21 +41,18 @@ while i+2<rng:
         v2 = float(basicStatsCon[i+1].replace(",", ""))
         v3 = float(basicStatsCon[i+2].replace(",", ""))
     except ValueError:
-        print("Skipping invalid data {:>3}/{:>3} : (".format((i//3 + 1), rng//3), basicStatsCon[i], ", ", basicStatsCon[i + 1], ", ", basicStatsCon[i + 2], ") ", sep="")
+        #print("Skipping invalid data {:>3}/{:>3} : (".format((i//3 + 1), rng//3), basicStatsCon[i], ", ", basicStatsCon[i + 1], ", ", basicStatsCon[i + 2], ") ", sep="")
         basicStatsCon.pop(i + 2)
         basicStatsCon.pop(i + 1)
         basicStatsCon.pop(i)  # Written in reverse to avoid problems with shifting index!
         resCount -= 1
         rng = (len(basicStatsCon))
-        print("Max Idx: ", rng)
         continue
     except IndexError:
         print("MaxIdx:", rng-1, "Attempted Idx:", i)
-        print(basicStatsCon)
         exit(2)
     i += 3
 
-    print("Inserting set {:>3}/{:>3} : (".format((i//3 +1), rng//3), v1, ", ", v2, ", ", v3, ") [{},{},{}]".format(i,i+1,i+2), sep="")
     area.append(v1)
     dep.append(v2)
     rent.append(v3)
@@ -67,4 +64,4 @@ for i in range(resCount):
 
     print("%3d" % (i+1), "-", listings[i], "; Rent/Area Ratio:", priceSqftRatio[i], "; Area:", area[i], "; Deposit:", dep[i], "; Rent:", rent[i], "; Link -", listLinks[i], "; ID:", siteID[i])
 
-#b.quit()
+b.quit()
