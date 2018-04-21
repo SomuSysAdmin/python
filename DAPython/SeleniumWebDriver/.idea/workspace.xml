@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/NoBrokerScrapingTest/singleSearch.py" line="114" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="2dc96b6f-75d4-4388-8b56-744628edcdb2" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/NoBrokerScrapingTest/individualListing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NoBrokerScrapingTest/singleSearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/NoBrokerScrapingTest/singleSearch.py" afterDir="false" />
     </list>
@@ -14,11 +18,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="individualListing.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NoBrokerScrapingTest/individualListing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="23" column="118" selection-start-line="23" selection-start-column="118" selection-end-line="23" selection-end-column="118" />
+              <folding>
+                <element signature="e#0#30#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="singleSearch.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/NoBrokerScrapingTest/singleSearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="140">
+              <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -64,6 +80,7 @@
         <option value="$PROJECT_DIR$/NoBrokerScrapingTest/locality.py" />
         <option value="$PROJECT_DIR$/NoBrokerScrapingTest/test.py" />
         <option value="$PROJECT_DIR$/NoBrokerScrapingTest/singleSearch.py" />
+        <option value="$PROJECT_DIR$/NoBrokerScrapingTest/individualListing.py" />
       </list>
     </option>
   </component>
@@ -78,6 +95,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -94,7 +112,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -121,6 +138,24 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.singleSearch">
+    <configuration name="individualListing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="SeleniumWebDriver" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NoBrokerScrapingTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NoBrokerScrapingTest/individualListing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="locality" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="SeleniumWebDriver" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,24 +169,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NoBrokerScrapingTest/locality.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="manipulatingDOM" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SeleniumWebDriver" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="$PROJECT_DIR$/venv/bin/python" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/manipulatingDOM.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,19 +229,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.manipulatingDOM" />
       <item itemvalue="Python.redditPostList" />
       <item itemvalue="Python.singleSearch" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.locality" />
+      <item itemvalue="Python.individualListing" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.singleSearch" />
+        <item itemvalue="Python.individualListing" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.locality" />
         <item itemvalue="Python.redditPostList" />
-        <item itemvalue="Python.manipulatingDOM" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +277,14 @@
       <option name="project" value="LOCAL" />
       <updated>1524265158344</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Removed excessive debugging statements.">
+      <created>1524265369535</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1524265369535</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -270,13 +294,13 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962743" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.5007452" side_tool="true" weight="0.32871974" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49925485" visible="true" weight="0.32871974" />
       <window_info anchor="bottom" id="Version Control" order="1" />
       <window_info anchor="bottom" id="Python Console" order="2" weight="0.32871974" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.49925485" visible="true" weight="0.32871974" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="3" weight="0.30276817" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39965397" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -293,9 +317,44 @@
     <MESSAGE value="Added selenium module files" />
     <MESSAGE value="Completed &quot;Using the Selenium Module&quot;" />
     <MESSAGE value="Working on the python web-scraping script for nobroker.com" />
-    <option name="LAST_COMMIT_MESSAGE" value="Working on the python web-scraping script for nobroker.com" />
+    <MESSAGE value="Removed excessive debugging statements." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed excessive debugging statements." />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/NoBrokerScrapingTest/singleSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="26" column="83" lean-forward="true" selection-start-line="26" selection-start-column="83" selection-end-line="26" selection-end-column="83" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoBrokerScrapingTest/locality.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoBrokerScrapingTest/singleSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NoBrokerScrapingTest/locality.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/NoBrokerScrapingTest/singleSearch.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="560">
@@ -348,8 +407,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NoBrokerScrapingTest/localityCommonFloorDetailed500.py">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/NoBrokerScrapingTest/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NoBrokerScrapingTest/locality.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -358,17 +421,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/NoBrokerScrapingTest/test.py">
+    <entry file="file://$PROJECT_DIR$/NoBrokerScrapingTest/individualListing.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="23" column="118" selection-start-line="23" selection-start-column="118" selection-end-line="23" selection-end-column="118" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/NoBrokerScrapingTest/singleSearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        <state relative-caret-position="140">
+          <caret line="10" column="30" lean-forward="true" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
           </folding>
